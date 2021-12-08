@@ -71,7 +71,7 @@ Tuist is a command-line tool that helps you generate, maintain and interact with
     Use this command to build the project using particular scheme.
      
 ## tuist test/ tuist test MarvelAssignment
-   Use this command to test all test cases 
+    Use this command to test all test cases 
 
 ## tuist graph
     The command will output the dependency graph as an image.
