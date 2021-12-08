@@ -1,8 +1,8 @@
 # MarvelAssignment
 
 # Application Repo
-   URL:- https://github.globant.com/amol-bhakare/OBMarvelAssignment.git 
-   Branch:- release-branch
+   URL:- https://github.com/amol-bhakare/MarvelAssignment.git 
+   Branch:- Master
 
 # Application usage
     Open the app you will see the list of Marvel Characters.
