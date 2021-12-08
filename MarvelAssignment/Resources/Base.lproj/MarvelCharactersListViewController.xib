@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MarvelCharactersListViewController" customModule="MarvelAssignment" customModuleProvider="target">
+            <connections>
+                <outlet property="tableMarvelCharacterList" destination="qST-fi-x36" id="tOJ-QN-Isc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qST-fi-x36">
+                    <rect key="frame" x="0.0" y="120" width="414" height="776"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmq-XS-BUp">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marvel_Studios" translatesAutoresizingMaskIntoConstraints="NO" id="mz6-an-eW4">
+                            <rect key="frame" x="107" y="55" width="200" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="5zr-Jj-xiM"/>
+                                <constraint firstAttribute="height" constant="35" id="AlP-Bc-EiQ"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="2pJ-Gg-Xwj"/>
+                    <color key="backgroundColor" red="0.47843137254901957" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="mz6-an-eW4" firstAttribute="centerX" secondItem="Xmq-XS-BUp" secondAttribute="centerX" id="CFL-Mt-2jl"/>
+                        <constraint firstItem="2pJ-Gg-Xwj" firstAttribute="bottom" secondItem="mz6-an-eW4" secondAttribute="bottom" constant="30" id="VKp-pS-cj7"/>
+                        <constraint firstAttribute="height" constant="120" id="z8h-KA-qH9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.47843137254901957" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xmq-XS-BUp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Ae-yA-PFL"/>
+                <constraint firstItem="qST-fi-x36" firstAttribute="top" secondItem="Xmq-XS-BUp" secondAttribute="bottom" id="49N-d7-8Wf"/>
+                <constraint firstItem="Xmq-XS-BUp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ElG-5R-hez"/>
+                <constraint firstAttribute="bottom" secondItem="qST-fi-x36" secondAttribute="bottom" id="TFI-hp-a1W"/>
+                <constraint firstAttribute="trailing" secondItem="Xmq-XS-BUp" secondAttribute="trailing" id="WdV-Jr-hpq"/>
+                <constraint firstAttribute="trailing" secondItem="qST-fi-x36" secondAttribute="trailing" id="dkJ-8L-r3M"/>
+                <constraint firstItem="qST-fi-x36" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="k6J-W4-wve"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Marvel_Studios" width="674" height="150"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
